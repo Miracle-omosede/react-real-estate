@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         Bricolage: ['Bricolage Grotesque', 'sans-serif'],
+        Montserrat: ['Montserrat', 'sans-serif'],
       },
     },
   },

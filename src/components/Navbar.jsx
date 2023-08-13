@@ -7,7 +7,7 @@ const Navbar = () => {
 
         {/* --logo wrappper-- */}
         <div>
-            <h1 className='font-semibold text-[22px] capitalize font-Bricolage'>lyfewide</h1>
+            <h1 className='font-semibold text-[22px] capitalize font-Bricolage text-[#664b2f]'>lyfewide</h1>
         </div>
 
         {/* --nav wrapper--  */}
@@ -21,7 +21,7 @@ const Navbar = () => {
                 </ul>
             </div>
             {/* ----icons------ */}
-            <div className='flex gap-10 items-center justify-center text-[18px]'>
+            <div className='flex gap-10 items-center justify-center text-[18px] font-[500]'>
                 <span><i class="ri-search-line"></i></span>
                 <span><i class="ri-menu-3-fill"></i></span>
             </div>
