@@ -24,7 +24,7 @@ const Hero = () => {
                 </div>
                 <div className='flex justify-center items-center'>
                     <p className='text-xl'>
-                        Unlock Your Dream Space: Discover Android-Powered Homes and Offices with a Trusted Partner</p>
+                        Unlock Your Dream Space: Discover Android-Powered Homes and Offices with a Trusted Partner.</p>
                 </div>
             </div>
 
