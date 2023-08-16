@@ -9,6 +9,9 @@ module.exports = {
         Bricolage: ['Bricolage Grotesque', 'sans-serif'],
         Montserrat: ['Montserrat', 'sans-serif'],
       },
+      screens: {
+        xs: "450px",
+      }
     },
   },
   plugins: [],
