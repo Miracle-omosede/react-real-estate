@@ -2,15 +2,20 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './pages/About'
+import New from './components/New'
 
 const App = () => {
   return (
-    <div className='w-full max-w-[1100px] mx-auto'>
-        <Navbar/>
-        <Hero/>
-        <About/>
+    <div>
+      <div className='w-full'>
+      <Navbar/>
+      <Hero/>
+      <New/>
+      {/* <About/> */}
+      </div>
+ 
     </div>
-  )
+  )     
 }
 
 export default App

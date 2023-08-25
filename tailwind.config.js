@@ -8,6 +8,8 @@ module.exports = {
       fontFamily: {
         Bricolage: ['Bricolage Grotesque', 'sans-serif'],
         Montserrat: ['Montserrat', 'sans-serif'],
+        opensans: ['Open Sans', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
       },
       screens: {
         xs: "450px",

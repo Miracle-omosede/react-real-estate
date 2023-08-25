@@ -3,7 +3,7 @@ import 'remixicon/fonts/remixicon.css'
 
 const Navbar = () => {
   return (
-    <nav className='flex items-center justify-between py-10'>
+    <nav className='flex items-center justify-between py-10 px-20'>
 
         {/* --logo wrappper-- */}
         <div>
@@ -11,7 +11,7 @@ const Navbar = () => {
         </div>
 
         {/* --nav wrapper--  */}
-        <div className='flex items-center justify-between gap-16'>
+        <div className='flex items-center justify-between gap-16 '>
             {/* ----buttons----- */}
             <div>
                 <ul className='font-Bricolage flex flex-row gap-4 font-[500] text-[17px]'>
