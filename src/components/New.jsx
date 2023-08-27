@@ -7,7 +7,7 @@ const New = () => {
     // new in store
     const { title, subtitle, link, icon } = newInStore
   return (
-    <div className='container mt-52 font-Bricolage overflow-x-hidden max-w-[1100px] mx-auto px-5'>
+    <div className='container mt-10 md:mt-52 font-Bricolage overflow-x-hidden max-w-[1100px] mx-auto px-5'>
         <div className='flex flex-col lg:flex-row'>
             {/* text */}
             <div className='flex flex-col md:items-baseline md:gap-x-6 mb-6 lg:mb-0 md:text-left text-center justify-center items-center'>

@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import About from './pages/About'
 import New from './components/New'
 import HomeSection from './components/HomeSection'
+import Testimonial from './components/Testimonial'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <HomeSection/>
       </div>
       <New />
+      <Testimonial/>
     </div>
   );     
 }

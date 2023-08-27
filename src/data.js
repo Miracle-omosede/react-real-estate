@@ -13,6 +13,10 @@ import {
   import Appartment1 from './images/appartment1.jpg'
   import Appartment2 from './images/AppartmentNew.jpg'
   import Appartment3 from './images/appr.jpg'
+  import SmartHome from './images/smart-home.jpg'
+  import Avatar1 from "./images/avatar1.jpg"
+  import Avatar2 from "./images/avatar2.jpg"
+  import Avatar3 from "./images/avatar1.jpg"
   
   export const navigation = [
     {
@@ -58,33 +62,33 @@ import {
     ],
   };
   
-//   export const testimonial = {
-//     title: 'What people are saying about us',
-//     image: <TestimonialImg />,
-//     persons: [
-//       {
-//         avatar: <Avatar1Img />,
-//         name: 'Josh Smith',
-//         occupation: 'Manager of The New York Times',
-//         message:
-//           '“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”',
-//       },
-//       {
-//         avatar: <Avatar2Img />,
-//         name: 'Brandi Johns',
-//         occupation: 'Manager of The New York Times',
-//         message:
-//           '“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”',
-//       },
-//       {
-//         avatar: <Avatar3Img />,
-//         name: 'Paula Pfeffer',
-//         occupation: 'Manager of The New York Times',
-//         message:
-//           '“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”',
-//       },
-//     ],
-//   };
+  export const testimonial = {
+    title: 'What people are saying about us',
+    image: <SmartHome />,
+    persons: [
+      {
+        avatar: <Avatar1 />,
+        name: 'Josh Smith',
+        occupation: 'Manager of The New York Times',
+        message:
+          '“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”',
+      },
+      {
+        avatar: <Avatar2 />,
+        name: 'Brandi Johns',
+        occupation: 'Manager of The New York Times',
+        message:
+          '“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”',
+      },
+      {
+        avatar: <Avatar3/>,
+        name: 'Paula Pfeffer',
+        occupation: 'Manager of The New York Times',
+        message:
+          '“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”',
+      },
+    ],
+  };
   
   export const newsletter = {
     title: 'Get more discount Off your order',

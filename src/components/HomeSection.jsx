@@ -5,23 +5,23 @@ import app3 from "../images/appartment6.jpg"
 
 const HomeSection = () => {
   return (
-    <div className="mt-56 bg-gray-200 w-full py-28">
+    <div className="md:mt-56 bg-gray-200 w-full py-28">
       <div className="grid max-w-[1100px] mx-auto  grid-cols-12 h-full">
-        <div className="col-span-7 h-full">
+        <div className="md:col-span-7 col-span-12 h-full px-5">
           <div className="flex flex-row gap-4 h-full">
             <div className="grid grid-rows-6 gap-6 h-full">
               <div className="row-span-3">
                 <img
                   src={app2}
                   alt=""
-                  className="w-[440px] h-[250px] object-cover rounded-xl"
+                  className="md:w-[440px] md:h-[250px] object-cover rounded-xl"
                 />
               </div>
               <div className="row-span-3">
                 <img
                   src={app1}
                   alt=""
-                  className="w-[440px] h-[250px] object-cover rounded-xl"
+                  className="md:w-[440px] md:h-[250px] object-cover rounded-xl"
                 />
               </div>
             </div>
@@ -29,7 +29,7 @@ const HomeSection = () => {
               <img
                 src={app3}
                 alt=""
-                className="w-[340px] h-[190px] object-cover rounded-xl"
+                className="md:w-[340px] md:h-[190px] object-cover rounded-xl"
               />
             </div>
           </div>
@@ -57,12 +57,13 @@ const HomeSection = () => {
                     </div>
                 </div>
             </div> */}
-        <div className="col-span-5 flex flex-col font-poppins justify-center items-end pl-5 gap-4 text-right">
+        <div className="md:col-span-5 col-span-12 flex flex-col font-poppins md:justify-center justify-start items-start md:items-end md:my-0 my-10 pl-5 gap-4 md:text-right">
           <h1 className="text-5xl font-bold uppercase">Living Spaces Designed With<br/> <span className='text-[#6E5031]'>Perfection</span></h1>
           <p className='text-lg w-3/4'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit recusandae assumenda quia beatae debitis hic rem molestiae sint harum. In beatae culpa delectus! Asperiores id aperiam perferendis libero at praesentium?</p>
-          <button className='btn flex items-center justify-center gap-2 uppercase font-semibold text-2xl'>
+          <button className='btn flex md:flex-row hover:scale-105 hover:gap-6 transition-all flex-row-reverse items-center justify-center gap-2 uppercase font-semibold text-2xl'>
             <span>
-            <i class="ri-arrow-left-s-line"></i>
+            <i class="ri-arrow-left-s-line md:flex hidden"></i>
+            <i class="ri-arrow-right-s-line md:hidden flex"></i>
             </span>
             <span>learn more</span>
           </button>
