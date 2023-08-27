@@ -5,6 +5,7 @@ import About from './pages/About'
 import New from './components/New'
 import HomeSection from './components/HomeSection'
 import Testimonial from './components/Testimonial'
+import Service from './components/Service'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       </div>
       <div className='w-full'>
         <HomeSection/>
+        <Service/>
       </div>
       <New />
       <Testimonial/>

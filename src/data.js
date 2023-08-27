@@ -48,15 +48,15 @@ import {
         image: <Appartment1 />,
       },
       {
-        name: 'Duplex',
+        name: 'Duplex, Oshogbo Osun State',
         image: <Appartment2 />,
       },
       {
-        name: 'Bungalow',
+        name: 'Bungalow, Edo State',
         image: <Appartment3 />,
       },
       {
-        name: 'Flat',
+        name: '40 Rooms, Storey Buidling, Zamfara',
         image: <Appartment1 />,
       },
     ],
@@ -71,21 +71,21 @@ import {
         name: 'Josh Smith',
         occupation: 'Manager of The New York Times',
         message:
-          '“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”',
+          '“They are have a perfect touch for make something so professional, interest and useful for a lot of people .”',
       },
       {
         avatar: <Avatar2 />,
         name: 'Brandi Johns',
         occupation: 'Manager of The New York Times',
         message:
-          '“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”',
+          '“They are have a perfect touch for make something so professional, interest and useful for a lot of people .”',
       },
       {
         avatar: <Avatar3/>,
         name: 'Paula Pfeffer',
         occupation: 'Manager of The New York Times',
         message:
-          '“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”',
+          '“They are have a perfect touch for make something so professional, interest and useful for a lot of people .”',
       },
     ],
   };
