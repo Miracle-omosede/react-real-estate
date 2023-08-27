@@ -60,7 +60,7 @@ const HomeSection = () => {
         <div className="md:col-span-5 col-span-12 flex flex-col font-poppins md:justify-center justify-start items-start md:items-end md:my-0 my-10 pl-5 gap-4 md:text-right">
           <h1 className="text-5xl font-bold uppercase">Living Spaces Designed With<br/> <span className='text-[#6E5031]'>Perfection</span></h1>
           <p className='text-lg w-3/4'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit recusandae assumenda quia beatae debitis hic rem molestiae sint harum. In beatae culpa delectus! Asperiores id aperiam perferendis libero at praesentium?</p>
-          <button className='btn flex md:flex-row hover:scale-105 hover:gap-6 transition-all flex-row-reverse items-center justify-center gap-2 uppercase font-semibold text-2xl'>
+          <button className='flex md:flex-row hover:scale-105 hover:gap-6 transition-all flex-row-reverse items-center justify-center gap-2 uppercase font-semibold text-2xl'>
             <span>
             <i class="ri-arrow-left-s-line md:flex hidden"></i>
             <i class="ri-arrow-right-s-line md:hidden flex"></i>

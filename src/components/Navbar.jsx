@@ -1,5 +1,6 @@
 import React from 'react'
 import 'remixicon/fonts/remixicon.css'
+import Logo from "../images/PRIMESTIX_HORIZONTAL LOGO.png"
 
 const Navbar = () => {
   return (
@@ -7,7 +8,9 @@ const Navbar = () => {
 
         {/* --logo wrappper-- */}
         <div>
-            <h1 className='font-semibold text-[22px] capitalize font-Bricolage text-[#664b2f]'>lyfewide</h1>
+            <h1 className='font-semibold text-[22px] capitalize font-Bricolage text-[#664b2f]'>
+               <img src= { Logo } className='w-[150px] h-[30px] object-cover' alt="" />
+            </h1>
         </div>
 
         {/* --nav wrapper--  */}

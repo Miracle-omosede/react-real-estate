@@ -1,5 +1,7 @@
 import React from "react";
 import SmartHome from "../images/smart-home.jpg";
+import { DiAndroid } from "react-icons/di"
+
 
 const Service = () => {
   return (
@@ -17,8 +19,10 @@ const Service = () => {
           </div>
         </div>
         <div className="col-span-6 p-28 flex items-center justify-center flex-col gap-3">
-          <div className="flex items-center text-gray-300 justify-center">
-            <div></div>
+          <div className="flex items-center text-gray-300 justify-center gap-3">
+            <div className="text-6xl flex items-center justify-center">
+                <DiAndroid />
+            </div>
             <div>
               <h4 className="font-semibold text-3xl uppercase">
                 Android powered homes

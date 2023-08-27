@@ -6,6 +6,7 @@ import New from './components/New'
 import HomeSection from './components/HomeSection'
 import Testimonial from './components/Testimonial'
 import Service from './components/Service'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       </div>
       <New />
       <Testimonial/>
+      <Footer/>
     </div>
   );     
 }
