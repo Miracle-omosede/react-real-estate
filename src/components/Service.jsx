@@ -3,7 +3,7 @@ import SmartHome from "../images/smart-home.jpg";
 
 const Service = () => {
   return (
-    <div className="h-full bg-black">
+    <div className="h-full bg-black font-poppins">
       <div className="grid grid-cols-12">
         <div className="col-span-6 relative">
           <img
