@@ -20,19 +20,27 @@ import {
   
   export const navigation = [
     {
-      name: 'home',
+      name: 'Home',
       href: 'home',
     },
     {
-      name: 'about',
+      name: 'About',
       href: 'about',
     },
     {
-      name: 'features',
-      href: 'features',
+      name: 'Appartments',
+      href: 'contact',
     },
     {
-      name: 'contact',
+      name: 'Projects',
+      href: 'contact',
+    },
+    {
+      name: 'Gallery',
+      href: 'contact',
+    },
+    {
+      name: 'Contact',
       href: 'contact',
     },
   ];

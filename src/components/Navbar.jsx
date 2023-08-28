@@ -17,9 +17,47 @@ const Navbar = () => {
     const [bg, setBg] = useState (false);
     const [mobileNav, setMobileNav] = useState (false);
 
+    useEffect (() => {
+        window.addEventListener('scroll', ()=> {
+            return window.scrollY > 50 ? setBg(true) : setBg(false);
+        })
+    })
+
   return (
 
-    <header className={`${bg ?'bg-primary py-4 lg:py-6' : 'bg-none'} fixed`}>
+    <header className={`${bg ?'bg-gray-200  py-4 lg:py-6' : 'bg-white'} fixed left-0 w-full md:px-[14rem] py-8 z-10 px-7 transition-all duration-200 font-semibold font-Bricolage`}>
+        <div className="container mx-auto">
+            <div className='flex justify-between items-center'>
+                {/* logo */}
+                <a href='#' alt=''>
+                <img src= { Logo } className='w-[150px] h-[30px] object-cover' alt="" />
+                </a>
+
+                {/* menu icons
+                 */}
+                 <div onClick={() => setMobileNav(!mobileNav)} className='text-2xl text-black md:hidden lg:text-3xl cursor-pointer'>
+                    {mobileNav ? <CgClose/> : <CgMenuRight />}
+                 </div>
+
+                 {/* nav */}
+                 <nav className='hidden md:flex '>
+                    <ul className='md:flex md:gap-x-5'>
+                        {navigation.map((item, index) => {
+                            return <li key={index}>
+                                <a className='capitalize text- black hover:border-b transition-all ' href={item.href}>
+                                    {item.name}
+                                </a>
+                            </li>
+                        })}
+                    </ul>
+                 </nav>
+
+                 {/* nav mobile */}
+                 <div className={`${mobileNav ? 'left-0' : '-left-full'} md:hidden fixed bottom-0 w-full max-w-xs h-screen transition-all `}>
+                    <NavMobile />
+                 </div>
+            </div>
+        </div>
         
     </header>
     // <nav className='flex items-center justify-between py-10 px-10 md:px-20'>
