@@ -22,26 +22,32 @@ import {
     {
       name: 'Home',
       href: 'home',
+      link: './'
     },
     {
       name: 'About',
       href: 'about',
+      link: '/about'
     },
     {
       name: 'Appartments',
       href: 'contact',
+      link: '/contact'
     },
     {
       name: 'Projects',
       href: 'contact',
+      link: '/project'
     },
     {
       name: 'Gallery',
       href: 'contact',
+      link: '/gallery'
     },
     {
       name: 'Contact',
       href: 'contact',
+      link: '/contact'
     },
   ];
   

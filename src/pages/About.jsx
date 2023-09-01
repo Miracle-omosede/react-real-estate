@@ -1,155 +1,33 @@
-// import React from "react";
-// import { Tilt } from "react-tilt";
-// import { motion } from "framer-motion";
-// // import { styles } from '../styles'
-// import { services } from "../constants";
-// import { fadeIn, textVariant } from "../utilis/motion";
-// import Vrlady from "../images/virtualtour.png";
+import React from 'react'
+import villa from "../images/villa.jpg"
+import Aboutbody from '../components/Aboutbody'
+import Footer from '../components/Footer'
 
-// const About = () => {
-//   return (
-//     <div className="wrapper flex flex-col w-full h-screen overflow-hidden relative">
-//       {/* --Heading--- */}
-//       <motion.div
-//         variants={textVariant()}
-//         className="w-full flex flex-col justify-center items-center"
-//       >
-//         <div className="font-Bricolage flex flex-col w-3/4 justify-start items-center">
-//           <h4 className="text-[#6e5031] text-[4rem] font-bold tracking-tighter capitalize">
-//             About us
-//           </h4>
-//           <motion.h1
-//             variants={fadeIn("", "", 0.1, 1)}
-//             className="capitalize text-[3rem] text-center"
-//             style={{ lineHeight: 1.2 }}
-//           >
-//             Elevating Real Estate Experiences: Introducing Lyfewide, Your
-//             Trusted Partner.
-//           </motion.h1>
-//         </div>
-//       </motion.div>
+const About = () => {
+  return (
+    <div>
+      <div className='flex'>
+        <div className='relative w-full h-full'>
+          <img src={ villa } alt="" className='absolute top-0 right-0 w-full h-[700px] object-cover' />
+          <div className='image-overflow'/>
+          {/* <div className='w-full h-[700px] text-white absolute flex items-center justify-bottom bottom-0 left-0'>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, beatae magnam. Natus ea, ipsam aliquid aut in quas. Ratione nisi quas a omnis hic consequuntur harum saepe excepturi sint eaque eligendi beatae id laboriosam perspiciatis
+          </div> */}
 
-//       <div className="flex flex-row items-center justify-center">
-//         <div className="mt-20 flex flex-wrap gap-10">
-//           <Tilt className="xs:w-[250px] w-full cursor-pointer">
-//             <motion.div
-//               variants={fadeIn("right", "spring", 0.5 * indexedDB, 0.75)}
-//               className="w-full p-[1px] rounded-[20px] border- shadow-card"
-//             >
-//               <div
-//                 options={{
-//                   max: 45,
-//                   scale: 1,
-//                   speed: 450,
-//                 }}
-//                 className="bg-[#6e5031] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col rounded-[20px]"
-//               >
-//                 <svg
-//                   width=""
-//                   height=""
-//                   viewBox="0 0 24 18"
-//                   className="w-[86px]"
-//                   fill="none"
-//                   xmlns="http://www.w3.org/2000/svg"
-//                 >
-//                   <path
-//                     d="M11.9996 1.872C14.7851 1.872 17.2886 2.8335 18.9746 4.563C20.3619 4.74342 21.6706 5.30994 22.7516 6.198C20.8601 2.223 16.9421 0 11.9996 0C7.12463 0 3.17963 2.22 1.26562 6.183C2.25673 5.37407 3.43901 4.83329 4.69913 4.6125C6.35363 2.808 8.96063 1.872 11.9996 1.872Z"
-//                     fill="white"
-//                   />
-//                   <path
-//                     d="M18.0004 18C16.4396 18.0018 14.9399 17.3935 13.8214 16.305L13.8184 16.302C13.6891 16.2049 13.5504 16.1209 13.4044 16.0515C12.9647 15.8474 12.485 15.7444 12.0004 15.75C11.3794 15.75 10.9069 15.9045 10.5979 16.0515C10.4513 16.1209 10.3121 16.2048 10.1824 16.302L10.1794 16.305C9.47408 16.9897 8.61138 17.4906 7.66713 17.7637C6.72287 18.0369 5.72597 18.0738 4.76409 17.8713C3.80221 17.6689 2.9048 17.2332 2.15078 16.6026C1.39676 15.9719 0.809212 15.1657 0.43981 14.2548C0.0704071 13.3439 -0.0695399 12.3562 0.0322737 11.3785C0.134087 10.4009 0.474543 9.46317 1.02371 8.64791C1.57287 7.83266 2.31392 7.16482 3.18169 6.7031C4.04947 6.24139 5.01739 5.99994 6.00035 6H18.0004C19.5917 6 21.1178 6.63214 22.243 7.75736C23.3682 8.88258 24.0004 10.4087 24.0004 12C24.0004 13.5913 23.3682 15.1174 22.243 16.2426C21.1178 17.3679 19.5917 18 18.0004 18Z"
-//                     fill="white"
-//                   />
-//                 </svg>
+        </div>
+        <div>
+        <div className='absolute bottom-24 left-0 text-white w-full px-5 md:px-56 font-poppins' > 
+            <h1 className='md:w-[700px] text-4xl font-semibold my-5'> Accusamus maiores fugiat, est recusandae</h1>
+            <p id='header-title' className='md:w-[600px] text-xl '>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem eaque sunt vero nam quidem excepturi quo commodi repellat quos esse!</p>
+          </div>
+        </div>
+      </div>
 
-//                 <h3 className="text-white text-[20px] font-semibold font-Bricolage capitalize text-center ">
-//                   We Take virtual tour around homes
-//                 </h3>
-//               </div>
-//             </motion.div>
-//           </Tilt>
-//           <Tilt className="xs:w-[250px] w-full cursor-pointer">
-//             <motion.div
-//               variants={fadeIn("right", "spring", 0.5 * indexedDB, 0.75)}
-//               className="w-full p-[1px] rounded-[20px] border- shadow-card"
-//             >
-//               <div
-//                 options={{
-//                   max: 45,
-//                   scale: 1,
-//                   speed: 450,
-//                 }}
-//                 className="bg-[#6e5031] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col rounded-[20px]"
-//               >
-//                 <svg
-//                   width=""
-//                   height=""
-//                   viewBox="0 0 24 18"
-//                   className="w-[86px]"
-//                   fill="none"
-//                   xmlns="http://www.w3.org/2000/svg"
-//                 >
-//                   <path
-//                     d="M11.9996 1.872C14.7851 1.872 17.2886 2.8335 18.9746 4.563C20.3619 4.74342 21.6706 5.30994 22.7516 6.198C20.8601 2.223 16.9421 0 11.9996 0C7.12463 0 3.17963 2.22 1.26562 6.183C2.25673 5.37407 3.43901 4.83329 4.69913 4.6125C6.35363 2.808 8.96063 1.872 11.9996 1.872Z"
-//                     fill="white"
-//                   />
-//                   <path
-//                     d="M18.0004 18C16.4396 18.0018 14.9399 17.3935 13.8214 16.305L13.8184 16.302C13.6891 16.2049 13.5504 16.1209 13.4044 16.0515C12.9647 15.8474 12.485 15.7444 12.0004 15.75C11.3794 15.75 10.9069 15.9045 10.5979 16.0515C10.4513 16.1209 10.3121 16.2048 10.1824 16.302L10.1794 16.305C9.47408 16.9897 8.61138 17.4906 7.66713 17.7637C6.72287 18.0369 5.72597 18.0738 4.76409 17.8713C3.80221 17.6689 2.9048 17.2332 2.15078 16.6026C1.39676 15.9719 0.809212 15.1657 0.43981 14.2548C0.0704071 13.3439 -0.0695399 12.3562 0.0322737 11.3785C0.134087 10.4009 0.474543 9.46317 1.02371 8.64791C1.57287 7.83266 2.31392 7.16482 3.18169 6.7031C4.04947 6.24139 5.01739 5.99994 6.00035 6H18.0004C19.5917 6 21.1178 6.63214 22.243 7.75736C23.3682 8.88258 24.0004 10.4087 24.0004 12C24.0004 13.5913 23.3682 15.1174 22.243 16.2426C21.1178 17.3679 19.5917 18 18.0004 18Z"
-//                     fill="white"
-//                   />
-//                 </svg>
+      <div className='bg-black h-screen w-full'></div>
+      <Aboutbody/>
+      <Footer/>
+    </div>
+  )
+}
 
-//                 <h3 className="text-white text-[20px] font-bold text-center ">
-//                   Services
-//                 </h3>
-//               </div>
-//             </motion.div>
-//           </Tilt>
-//           <Tilt className="xs:w-[250px] w-full cursor-pointer">
-//             <motion.div
-//               variants={fadeIn("right", "spring", 0.5 * indexedDB, 0.75)}
-//               className="w-full p-[1px] rounded-[20px] border- shadow-card"
-//             >
-//               <div
-//                 options={{
-//                   max: 45,
-//                   scale: 1,
-//                   speed: 450,
-//                 }}
-//                 className="bg-[#6e5031] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col rounded-[20px]"
-//               >
-//                 <svg
-//                   width=""
-//                   height=""
-//                   viewBox="0 0 24 18"
-//                   className="w-[86px]"
-//                   fill="none"
-//                   xmlns="http://www.w3.org/2000/svg"
-//                 >
-//                   <path
-//                     d="M11.9996 1.872C14.7851 1.872 17.2886 2.8335 18.9746 4.563C20.3619 4.74342 21.6706 5.30994 22.7516 6.198C20.8601 2.223 16.9421 0 11.9996 0C7.12463 0 3.17963 2.22 1.26562 6.183C2.25673 5.37407 3.43901 4.83329 4.69913 4.6125C6.35363 2.808 8.96063 1.872 11.9996 1.872Z"
-//                     fill="white"
-//                   />
-//                   <path
-//                     d="M18.0004 18C16.4396 18.0018 14.9399 17.3935 13.8214 16.305L13.8184 16.302C13.6891 16.2049 13.5504 16.1209 13.4044 16.0515C12.9647 15.8474 12.485 15.7444 12.0004 15.75C11.3794 15.75 10.9069 15.9045 10.5979 16.0515C10.4513 16.1209 10.3121 16.2048 10.1824 16.302L10.1794 16.305C9.47408 16.9897 8.61138 17.4906 7.66713 17.7637C6.72287 18.0369 5.72597 18.0738 4.76409 17.8713C3.80221 17.6689 2.9048 17.2332 2.15078 16.6026C1.39676 15.9719 0.809212 15.1657 0.43981 14.2548C0.0704071 13.3439 -0.0695399 12.3562 0.0322737 11.3785C0.134087 10.4009 0.474543 9.46317 1.02371 8.64791C1.57287 7.83266 2.31392 7.16482 3.18169 6.7031C4.04947 6.24139 5.01739 5.99994 6.00035 6H18.0004C19.5917 6 21.1178 6.63214 22.243 7.75736C23.3682 8.88258 24.0004 10.4087 24.0004 12C24.0004 13.5913 23.3682 15.1174 22.243 16.2426C21.1178 17.3679 19.5917 18 18.0004 18Z"
-//                     fill="white"
-//                   />
-//                 </svg>
-
-//                 <h3 className="text-white text-[20px] font-bold text-center ">
-//                   Services
-//                 </h3>
-//               </div>
-//             </motion.div>
-//           </Tilt>
-//         </div>
-
-//         {/* <div className="absolute -right-[10rem] w-[850px] bottom-0 -z-50" >
-//           <img src={Vrlady} alt="vr-lady" />
-//         </div> */}
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default About;
+export default About

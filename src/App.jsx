@@ -7,22 +7,24 @@ import HomeSection from './components/HomeSection'
 import Testimonial from './components/Testimonial'
 import Service from './components/Service'
 import Footer from './components/Footer'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
 
 const App = () => {
   return (
     <div id='hide-overflow'>
+      <BrowserRouter>
       <div className="w-full max-w-[1100px] mx-auto">
         <Navbar />
-        <Hero />
-      </div>
-      <div className='w-full'>
-        <HomeSection/>
-        <Service/>
-      </div>
-      <New />
-      <Testimonial/>
-      <Footer/>
+        </div>
+
+        <Routes>
+          <Route exact path="/" element={<Home/>}/>
+          <Route path="/About" element={<About />} />
+        </Routes>
+      </BrowserRouter>
     </div>
+
   );     
 }
 

@@ -10,6 +10,7 @@ module.exports = {
         Montserrat: ['Montserrat', 'sans-serif'],
         opensans: ['Open Sans', 'sans-serif'],
         poppins: ['Poppins', 'sans-serif'],
+        londrina: ['Londrina Outline', 'cursive'],
       },
       screens: {
         xs: "450px",
