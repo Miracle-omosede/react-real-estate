@@ -4,6 +4,7 @@ import Logo from "../images/PRIMESTIX_HORIZONTAL LOGO.png";
 import { CgMenuRight, CgClose } from 'react-icons/cg';
 import { navigation } from "../data";
 import NavMobile from "./NavMobile";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [bg, setBg] = useState(false);
@@ -32,11 +33,13 @@ const Navbar = () => {
           <nav className='hidden md:flex '>
             <ul className='md:flex md:gap-x-5'>
               {navigation.map((item, index) => {
-                return <li key={index}>
-                  <a className='capitalize text- black hover:border-b transition-all ' href={item.href} onClick={handleLinkClick}>
+                return <Link to={item.link}>
+                <li key={index}>
+                  <a className='capitalize text-black hover:border-b transition-all' href="#" onClick={handleLinkClick}>
                     {item.name}
                   </a>
                 </li>
+                </Link>
               })}
             </ul>
           </nav>

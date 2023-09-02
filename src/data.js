@@ -17,6 +17,163 @@ import {
   import Avatar1 from "./images/avatar1.jpg"
   import Avatar2 from "./images/avatar2.jpg"
   import Avatar3 from "./images/avatar1.jpg"
+
+  export const products = {
+    title: 'All Products',
+    subtitle:
+      'The products we provide only for you as our service are selected from the best products with number 1 quality in the world',
+    pages: [
+      {
+        productList: [
+          {
+            image: <Appartment1 />,
+            icon: <IoMdAddCircle />,
+            name: 'Ceiling Light',
+            price: 75,
+            oldPrice: 82,
+          },
+          {
+            image: <Appartment2 />,
+            icon: <IoMdAddCircle />,
+            name: 'Wood Chair',
+            price: 50,
+            oldPrice: 70,
+          },
+          {
+            image: <Appartment3 />,
+            icon: <IoMdAddCircle />,
+            name: 'Papper Cupboard',
+            price: 105,
+            oldPrice: 120,
+          },
+          {
+            image: <Appartment1/>,
+            icon: <IoMdAddCircle />,
+            name: 'Ole Gundorse Spring',
+            price: 75,
+            oldPrice: 82,
+          },
+          {
+            image: <Appartment2 />,
+            icon: <IoMdAddCircle />,
+            name: 'Treos Seroes 911',
+            price: 200,
+            oldPrice: 210,
+          },
+          {
+            image: <Appartment3 />,
+            icon: <IoMdAddCircle />,
+            name: 'Multi bilderman slibber',
+            price: 45,
+            oldPrice: 50,
+          },
+          {
+            image: <Appartment3 />,
+            icon: <IoMdAddCircle />,
+            name: 'XORA corner desk',
+            price: 320,
+            oldPrice: 325,
+          },
+          {
+            image: <Appartment1 />,
+            icon: <IoMdAddCircle />,
+            name: 'Black Forest Series Wood',
+            price: 225,
+            oldPrice: 240,
+          },
+          {
+            image: <Appartment2 />,
+            icon: <IoMdAddCircle />,
+            name: 'Papper Cupboard',
+            price: 105,
+            oldPrice: 120,
+          },
+          {
+            image: <Appartment3 />,
+            icon: <IoMdAddCircle />,
+            name: 'Ole Gundorse Spring',
+            price: 75,
+            oldPrice: 82,
+          },
+        ],
+      },
+      {
+        productList: [
+          {
+            image: <Appartment1 />,
+            icon: <IoMdAddCircle />,
+            name: 'Ceiling Light',
+            price: 75,
+            oldPrice: 82,
+          },
+          {
+            image: <Appartment2/>,
+            icon: <IoMdAddCircle />,
+            name: 'Wood Chair',
+            price: 50,
+            oldPrice: 70,
+          },
+          {
+            image: <Appartment3 />,
+            icon: <IoMdAddCircle />,
+            name: 'Papper Cupboard',
+            price: 105,
+            oldPrice: 120,
+          },
+          {
+            image: <Appartment1 />,
+            icon: <IoMdAddCircle />,
+            name: 'Ole Gundorse Spring',
+            price: 75,
+            oldPrice: 82,
+          },
+          {
+            image: <Appartment2 />,
+            icon: <IoMdAddCircle />,
+            name: 'Treos Seroes 911',
+            price: 200,
+            oldPrice: 210,
+          },
+          {
+            image: <Appartment3 />,
+            icon: <IoMdAddCircle />,
+            name: 'Multi bilderman slibber',
+            price: 45,
+            oldPrice: 50,
+          },
+          {
+            image: <Appartment1 />,
+            icon: <IoMdAddCircle />,
+            name: 'XORA corner desk',
+            price: 320,
+            oldPrice: 325,
+          },
+          {
+            image: <Appartment2 />,
+            icon: <IoMdAddCircle />,
+            name: 'Black Forest Series Wood',
+            price: 225,
+            oldPrice: 240,
+          },
+          {
+            image: <Appartment3 />,
+            icon: <IoMdAddCircle />,
+            name: 'Papper Cupboard',
+            price: 105,
+            oldPrice: 120,
+          },
+          {
+            image: <Appartment1 />,
+            icon: <IoMdAddCircle />,
+            name: 'Ole Gundorse Spring',
+            price: 75,
+            oldPrice: 82,
+          },
+        ],
+      },
+    ],
+  };
+  
   
   export const navigation = [
     {
@@ -31,8 +188,8 @@ import {
     },
     {
       name: 'Appartments',
-      href: 'contact',
-      link: '/contact'
+      href: 'Appartments',
+      link: '/appartments'
     },
     {
       name: 'Projects',

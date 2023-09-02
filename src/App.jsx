@@ -9,6 +9,7 @@ import Service from './components/Service'
 import Footer from './components/Footer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
+import Appartments from './pages/Appartments'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Routes>
           <Route exact path="/" element={<Home/>}/>
           <Route path="/About" element={<About />} />
+          <Route path="/appartments" element={<Appartments />} />
         </Routes>
       </BrowserRouter>
     </div>
