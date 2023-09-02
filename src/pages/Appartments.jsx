@@ -265,6 +265,8 @@ const Appartments = () => {
                 </div>
               </div>
             </div>
+
+      
           </div>
         </div>
       </div>
