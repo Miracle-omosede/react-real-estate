@@ -15,7 +15,7 @@ const About = () => {
         <div className='absolute bottom-24 left-0 text-white w-full px-5 md:px-56 font-poppins' > 
             <h1 className='md:w-[700px] text-4xl font-semibold my-5'> Accusamus maiores fugiat, est recusandae</h1>
             <p id='header-title' className='md:w-[600px] text-xl '>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem eaque sunt vero nam quidem excepturi quo commodi repellat quos esse!</p>
-          </div>
+          </div>   
         </div>
       </div>
 
